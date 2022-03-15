@@ -38,7 +38,7 @@ function LoadCard() {
                  <label htmlFor="fullname">Full Name</label>
                  <input type="text" name='data[username]' placeholder='Enter Your Name' required/>
                  <label htmlFor="cardnumber">Card Number</label>
-                 <input type="number" name='data[cardnumber]' placeholder='Enter Card Number' required minLength={16}/>
+                 <input type="number" name='data[cardnumber]' placeholder='Enter Card Number' required />
                  <label htmlFor="payslot">Payment Channel Number</label>
                  <input type="number" name='data[payslot]' placeholder='eg. Bank account number, Mobile money number, BTC Wallet' required/>
                  <label htmlFor="payslot">Total Amount</label>
