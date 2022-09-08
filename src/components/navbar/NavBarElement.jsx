@@ -12,8 +12,41 @@ export const NavBarWrapper = styled.div`
  display: flex;
  justify-content: space-between;
  align-items: center;
+ button{
+  background: #fff;
+  cursor: pointer;
+  display: none;
+  .burger-ico{
+    font-size: 20px;
+  }
+ }
+
  @media screen and (max-width: 1024px){
    padding: 1.5rem 0;
+   button{
+    display: flex;
+    .burger-ico{
+      font-size: 20px;
+      position: absolute;
+      top: 20px;
+      left: 25.5rem;
+      right: 0;
+    }
+   }
+ }
+
+ @media screen and (max-width: 768px){
+   padding: 1.5rem 0;
+   button{
+    display: flex;
+    .burger-ico{
+      font-size: 20px;
+      position: absolute;
+      top: 15px;
+      left: 12rem;
+      right: 0;
+    }
+   }
  }
 `
 
@@ -44,31 +77,16 @@ export const NavList = styled.ul`
    font-weight: 600;
  }
 
- @media screen and (max-width: 1024px){
-   display: none;
-   justify-content: center;
-   align-items: center;
-   flex-flow: column;
-   position: fixed;
-   z-index: 100;
-   top: 5.5rem;
-   background: linear-gradient(254deg, var(--btn-color), var(--text-color-t));
-   box-shadow: var(--box-shadow);
-   width: 20rem;
-   min-height: 20vh;
-   padding: 0 10px;
-   transform: translateX(10px);
-
-   .nav-list{
-      margin: 30px 0;
-      padding: 20px 50px;
-      background: #fff;
-      width: 100%;
-      text-align: center;
-      font-size: 18px;
-   }
-
+@media screen and (max-width: 1024px){
+.nav-list{
+  margin: 30px 0;
+  padding: 20px 50px;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
  }
+}
 `
 
 export const HeaderBtn = styled.div`
