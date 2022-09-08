@@ -21,7 +21,7 @@ export const HeroText = styled.div`
  p{
     font-size: 18px;
     width: 90%;
-    text-align: justify;
+    text-align: start;
     padding: 20px 0;
  }
 
@@ -37,7 +37,7 @@ export const HeroText = styled.div`
 
  @media screen and (max-width: 1024px) {
    h1{
-      font-size: 45px;
+      font-size: 20px;
       width: 100%;
       letter-spacing: 0;
    }
@@ -45,6 +45,43 @@ export const HeroText = styled.div`
    p{
       width: 100%;
       letter-spacing: 0;
+      font-size: 14px;
+   }
+ }
+
+ @media screen and (max-width: 768px) {
+   h1{
+      font-size: 24px;
+      width: 100%;
+      letter-spacing: 0;
+   }
+
+   p{
+      width: 100%;
+      letter-spacing: 0;
+      font-size: 15px;
+   }
+
+   a{
+      padding: 10px 20px;
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+   h1{
+      font-size: 22px;
+      width: 100%;
+      letter-spacing: 0;
+   }
+
+   p{
+      width: 100%;
+      letter-spacing: 0;
+      font-size: 14px;
+   }
+
+   a{
+      padding: 10px 20px;
    }
  }
 `

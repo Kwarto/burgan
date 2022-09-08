@@ -24,6 +24,7 @@ html{
   --text-color-t: rgb(6, 6, 77);
   --container-lg: 90%;
   --container-md: 95%;
+  --btn-color: hsl(0, 100%, 50%);
 }
 
 img{
@@ -42,6 +43,17 @@ img{
 }
 
 @media screen and (max-width: 1024px) {
+  .col-md-2{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .container{
+    width: var(--container-lg);
+  }
+}
+
+@media screen and (max-width: 768px) {
   .col-md-2{
     grid-template-columns: 1fr;
     gap: 2rem;

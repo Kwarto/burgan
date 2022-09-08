@@ -6,7 +6,16 @@ export const LayerWrapper = styled.div`
 
 export const LayerContainer = styled.div``
 
-export const LayerImg= styled.div``
+export const LayerImg= styled.div`
+
+ @media screen and  (max-width: 1024px){
+    transform: translateY(8rem);
+ }
+
+ @media screen and  (max-width: 768px){
+    transform: translateY(0);
+ }
+`
 
 export const LayerText = styled.div`
  display: flex;
@@ -29,6 +38,7 @@ export const LayerText = styled.div`
             height: 30px;
             background: red;
             border-radius: 30px 0 30px 0;
+            box-shadow: var(--box-shadow);
         }
     }
  }
@@ -38,6 +48,25 @@ export const LayerText = styled.div`
 
     p{
         text-align: center;
+    }
+ }
+
+ @media screen and  (max-width: 1024px){
+    article {
+        h1{
+            font-size: 16px;
+
+            &:after{
+                left: -8px; 
+            }
+        }
+
+        div{
+            padding: 16px;
+            p{
+              font-size: 14px;
+            }
+        }
     }
  }
 `

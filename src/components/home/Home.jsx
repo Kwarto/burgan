@@ -1,6 +1,7 @@
 import React from 'react'
 import CTA from '../../sections/CTA/CTA'
 import Hero from '../../sections/hero/Hero'
+import LastCall from '../../sections/lastcall/LastCall'
 import Layer from '../../sections/layer/Layer'
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
      <Hero />
      <CTA />
      <Layer />
+     <LastCall />
     </>
   )
 }

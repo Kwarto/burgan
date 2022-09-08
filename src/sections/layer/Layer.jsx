@@ -19,7 +19,7 @@ function Layer() {
                 </div>
             </article>
             <article>
-                <h1>ACTIVATE WITH 40% & SPENT 100%</h1>
+                <h1>ACTIVATE WITH 40% & SPEND 100%</h1>
                 <div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur ducimus blanditiis. Quia culpa quos similique accusamus illum? Nemo, inventore.

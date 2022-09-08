@@ -36,10 +36,45 @@ export const LogoWrapper = styled.div`
     font-size: 12px;
  }
 `
+export const NavList = styled.ul`
+ .nav-list{
+   margin: 0 30px;
+   color: var(--text-color-t);
+   font-size: 16px;
+   font-weight: 600;
+ }
+
+ @media screen and (max-width: 1024px){
+   display: none;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+   position: fixed;
+   z-index: 100;
+   top: 5.5rem;
+   background: linear-gradient(254deg, var(--btn-color), var(--text-color-t));
+   box-shadow: var(--box-shadow);
+   width: 20rem;
+   min-height: 20vh;
+   padding: 0 10px;
+   transform: translateX(10px);
+
+   .nav-list{
+      margin: 30px 0;
+      padding: 20px 50px;
+      background: #fff;
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+   }
+
+ }
+`
+
 export const HeaderBtn = styled.div`
  margin-right: 40px;
  a{
-    background: red;
+    background: var(--btn-color);
     padding: 12px 30px;
     border-radius: 50px;
     box-shadow: var(--box-shadow);
@@ -49,5 +84,9 @@ export const HeaderBtn = styled.div`
  }
  @media screen and (max-width: 1024px){
    margin-right: 10px;
+   a{
+      padding: 7px 20px;
+      font-size: 14px;
+   }
  }
 `
