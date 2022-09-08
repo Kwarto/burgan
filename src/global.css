@@ -77,6 +77,10 @@ img{
   .container{
     width: var(--container-md);
   }
+
+  .nav-links-mobile{
+    transform: translateX(30px);
+  }
 }
 
 
