@@ -11,3 +11,43 @@
   outline: none;
   transition:  all 2s ease;
 }
+
+
+html{
+  user-select: none;
+}
+
+:root{
+  --main-bg: blue;
+  --box-shadow: 0 0 10px 10px rgba(0, 0, 255, 0.034);
+  --text-color: hsl(0, 0%, 100%);
+  --text-color-t: rgb(6, 6, 77);
+  --container-lg: 90%;
+  --container-md: 95%;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  width: var(--container-lg);
+}
+
+.col-md-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .col-md-2{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .container{
+    width: var(--container-md);
+  }
+}
