@@ -42,10 +42,24 @@ img{
   gap: 1.5rem;
 }
 
+.col-md-3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* .icons{
+  font: 30%;
+} */
+
 @media screen and (max-width: 1024px) {
   .col-md-2{
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+
+  .col-md-3{
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .container{
@@ -72,6 +86,11 @@ img{
   .col-md-2{
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .col-md-3{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .container{

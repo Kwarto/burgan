@@ -43,8 +43,8 @@ const test = [
     avatar: Avatar3,
     client: 'Ali Huzaifa',
     caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic tenetur, nisi aperiam laborum impedit veniam accusantium iste dicta! Animi placeat officiis architecto! Inventore, impedit.',
-    prof: 'Engineer',
-    country: 'Freelancer'
+    prof: 'Freelancer',
+    country: 'Pakistan'
   }
 ]
 function Testimonials() {

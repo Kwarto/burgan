@@ -17,7 +17,7 @@ function Footer() {
      </FooterContent>
     </FooterWrapper>
     <Copyright>
-    <p><a href="/">Burgan</a> | &copy; 2022 All Copyright Reserved</p>
+    <p><a href="/">Burgan</a> | &copy; 2018 All Copyright Reserved</p>
    </Copyright>
   </>
   )

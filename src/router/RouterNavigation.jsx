@@ -13,10 +13,10 @@ function RouterNavigation() {
        <Router>
         <NavBar />
          <Routes>
-         <Route path='/' element={<Home />}/>
-         <Route path='get-card' element={<Cards />}/>
-         <Route path='about' element={<About />}/>
-         <Route path='support' element={<Support />}/>
+          <Route path='/' element={<Home />}/>
+          <Route path='get-card' element={<Cards />}/>
+          <Route path='about' element={<About />}/>
+          <Route path='support' element={<Support />}/>
          </Routes>
          <Footer />
        </Router>
