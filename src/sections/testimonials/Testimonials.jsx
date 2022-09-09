@@ -87,6 +87,7 @@ function Testimonials() {
     </TestimonialsWrapper>
     </>
   )
+
 }
 
 export default Testimonials
