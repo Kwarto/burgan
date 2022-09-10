@@ -48,7 +48,7 @@ export const HeaderGridText = styled.div`
  @media screen and (max-width: 768px){
 
     h1{
-        font-size: 28x;
+        font-size: 28px;
     }
  }
 `
