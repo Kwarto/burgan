@@ -20,7 +20,7 @@ function NavBar() {
             {isMobile ? <FaTimes className='burger-ico'/> : <FaBars className='burger-ico'/>}
           </button>
         <HeaderBtn>
-          <a href="get-card">Get Started</a>
+          <Link to='get-card' className='top-btn'>Get Started</Link>
         </HeaderBtn>
       </NavBarWrapper>
      </>

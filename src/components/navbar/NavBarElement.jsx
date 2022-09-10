@@ -91,7 +91,7 @@ export const NavList = styled.ul`
 
 export const HeaderBtn = styled.div`
  margin-right: 40px;
- a{
+ .top-btn{
     background: var(--btn-color);
     padding: 12px 30px;
     border-radius: 50px;
@@ -102,7 +102,7 @@ export const HeaderBtn = styled.div`
  }
  @media screen and (max-width: 1024px){
    margin-right: 10px;
-   a{
+   .top-btn{
       padding: 7px 20px;
       font-size: 14px;
    }
