@@ -44,6 +44,13 @@ export const HeaderGridText = styled.div`
         font-size: 35px;
     }
  }
+
+ @media screen and (max-width: 768px){
+
+    h1{
+        font-size: 28x;
+    }
+ }
 `
 
 export const GridText = styled.p`
