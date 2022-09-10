@@ -1,7 +1,7 @@
 import React from 'react'
 import { SupportWrapper, WrapperItems, Wrap, WrapTitle, WrapText, WrapBtn, Servicecenter, Customer, Socials} from './SupporheaderElement'
 import supportImg from '../../images/support.jpg'
-
+// buxpaysucess
 function Supportheader({facebook, twitter, instagram, linkedin, github}) {
    const acc = [
       facebook='facebook.com',

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from '../components/navbar/NavBar'
 import Home from '../components/home/Home'
 import Card from '../components/cards/Cards'
+import BuxPaySuccess from '../components/buxpaysuccess/BuxPaySuccess'
 import About from '../components/about/About'
 import Support from '../components/support/Support'
 import Footer from '../components/footer/Footer'
@@ -15,6 +16,7 @@ function RouterNavigation() {
          <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='get-card' element={<Card />}/>
+          <Route path='buxpaysuccess' element={<BuxPaySuccess />}/>
           <Route path='about' element={<About />}/>
           <Route path='support' element={<Support />}/>
          </Routes>
