@@ -1,8 +1,15 @@
 import React from 'react'
-
+import {SupportWrapper} from './SupportElement'
+import Supportheader from '../../sections/supportheader/Supportheader'
+import SupportBody from '../../sections/supportbody/Supportbody'
 function Support() {
   return (
-    <div>Support</div>
+    <>
+     <SupportWrapper>
+      <Supportheader />
+      <SupportBody />
+     </SupportWrapper>
+    </>
   )
 }
 

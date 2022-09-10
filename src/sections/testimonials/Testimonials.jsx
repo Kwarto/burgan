@@ -50,7 +50,7 @@ const test = [
 function Testimonials() {
   return (
     <>
-     <TestimonialsWrapper>
+    <TestimonialsWrapper>
        <TestimonialContainer className='container'>
          <h1>Happy Clients Say !!</h1>
          <Swiper
