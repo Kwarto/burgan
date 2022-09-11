@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import map from '../../images/world-map.png'
 export const CardsWrapper = styled.div`
  margin-top: 5rem;
  background: rgba(174, 168, 226, 0.021);
