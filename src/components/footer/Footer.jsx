@@ -11,7 +11,7 @@ function Footer() {
       </FooterLogo>
       <FooterText>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab laboriosam? Similique laboriosam accusamus itaque possimus pariatur facilis quo voluptatem cumque autem suscipit quos magnam id, dolore a quasi inventore laborum. Deleniti ad aspernatur animi debitis, nemo possimus eaque suscipit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab laboriosam? Similique quo voluptatem cumque autem suscipit quos magnam id, dolore a quasi inventore laborum. Deleniti ad aspernatur animi debitis, nemo possimus eaque suscipit.
         </p>
       </FooterText>
      </FooterContent>
