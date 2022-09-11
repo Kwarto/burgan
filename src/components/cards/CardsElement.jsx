@@ -1,7 +1,8 @@
 import styled from "styled-components";
-
+import map from '../../images/world-map.png'
 export const CardsWrapper = styled.div`
  margin-top: 5rem;
+ background: rgba(174, 168, 226, 0.021);
 
  @media screen and (max-width: 1024px){
     margin-top: 7rem;
@@ -101,4 +102,250 @@ export const MockUpImg = styled.div`
  @media screen and (max-width: 1024px){
     min-height: 35vh;
  }
+`
+
+export const CardList = styled.div`
+  padding: 50px 0;
+  min-height: 100vh;
+  background: var(--text-color);
+`
+
+export const ListContainer = styled.div`
+`
+
+
+export const ListHeading = styled.div`
+ position: absolute;
+ right: 0;
+ display: flex;
+ flex-direction: column;
+
+  h1{
+    font-size: 45px;
+    width: 95%;
+    text-align: center;
+    color: var(--text-color-t);
+    padding-top: 15px;
+ }
+
+ p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-right: 50px;
+  color: var(--btn-color);
+ }
+
+ @media screen and (max-width: 1024px){
+    h1{
+        font-size: 25px;
+    }
+ }
+
+ @media screen and (max-width: 768px){
+    h1{
+        font-size: 23px;
+    }
+}
+`
+
+export const ListWrapper = styled.div`
+ position: relative;
+ top: 10rem;
+ gap: 3rem;
+`
+
+export const CardDesignWrapper = styled.div`
+  margin-top: 10rem;
+  @media screen and (max-width: 1024px){
+    margin-top: 14rem;
+  }
+  @media screen and (max-width: 768px){
+    margin-top: 3rem;
+  }
+`
+
+export const CardDesign = styled.div`
+ border-radius: 30px;
+ img{
+    border-radius: 30px;
+ }
+
+ @media screen and (max-width: 768px){
+   top: 4rem;
+   transform: scale(1.02);
+   @keyframes animate {
+    0%{
+      transform: translateX(0);
+      opacity: 0.86;
+    } 
+     100%{
+      transform: translateX(2px);
+      opacity: 1;
+    }
+  }
+
+  img{
+    width: 100%;
+  }
+}
+`
+
+export const SecCard = styled.div`
+ border-radius: 30px;
+ position: absolute;
+ transform: scale(1.04);
+ top: 18rem;
+ animation: animate 2s linear infinite;
+  @keyframes animate {
+    0%{
+      transform: translateX(0);
+      opacity: 0.97;
+    } 
+     100%{
+      transform: translateX(15px);
+      opacity: 1;
+    }
+ } 
+ img{
+    border-radius: 30px;
+ }
+
+@media screen and (max-width: 1024px){
+   top: 20rem;
+
+   @keyframes animate {
+    0%{
+      transform: translateX(0);
+      opacity: 0.86;
+    } 
+     100%{
+      transform: translateX(2px);
+      opacity: 1;
+    }
+   }
+
+   img{
+    width: 68%;
+   }
+}
+
+@media screen and (max-width: 768px){
+   top: 10rem;
+
+   @keyframes animate {
+    0%{
+      transform: translateX(0);
+      opacity: 0.86;
+    } 
+     100%{
+      transform: translateX(2px);
+      opacity: 1;
+    }
+   }
+
+   img{
+    width: 98%;
+   }
+}
+`
+
+
+export const CardSideText = styled.div`
+ margin-top: 60px;
+`
+
+export const SideItems = styled.div`
+ min-height: 30vh;
+ background: var(--text-color);
+ box-shadow: var(--box-shadow);
+ border-radius: 0 8px 8px 0;
+ position: relative;
+ border-left: .2rem solid var(--btn-color);
+ margin: 20px 0;
+
+ &::before{
+    content: '';
+    position: absolute;
+    top: -1.5rem; left: -18px;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--btn-color);
+ }
+
+ div{
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px 0;
+
+    .c-ico{
+        font-size: 55px;
+        background: var(--btn-color);
+        color: var(--text-color);
+        padding: 10px;
+        border-radius: 50px;
+    }
+ }
+
+ h1{
+    text-align: center;
+    font-size: 16px;
+ }
+
+ p{
+    text-align: center;
+    padding-bottom: 5px;
+ }
+ @media screen and (max-width: 1024px){
+   min-height: 20vh;
+ }
+ @media screen and (max-width: 1024px){
+   min-height: 20vh;
+ }
+`
+
+export const UseDirect = styled.div`
+ margin: 10rem 40px;
+ position: relative;
+ h3{
+    font-size: 30px;
+    color: var(--text-color-t);
+    &:after{
+        position: absolute;
+        content: '';
+        width: 46%;
+        height: 5px;
+        background: var(--btn-color);
+        border-radius: 10px;
+        top: 20px;
+        right: 2rem;
+
+
+        @media screen and (max-width: 1024px){
+            width: 47%;
+            right: 5px;
+        }
+
+        @media screen and (max-width: 768px){
+            width: 47%;
+            right: 0;
+            top: 10px;
+        }
+    }
+ }
+
+ @media screen and (max-width: 1024px){
+     margin-top: 5px;
+  }
+
+  @media screen and (max-width: 768px){
+     margin-top: 10rem;
+
+     h3{
+        font-size: 20px;
+     }
+  }
 `
