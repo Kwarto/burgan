@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
     LoadCardWrapper, LoadCardContainer, LoadCardLeft, 
     HeadingWrapper, PaymentMethod,MethodWrapper, 
@@ -7,6 +8,7 @@ import {
 import MobileImg from '../../images/receive.jpg'
 import {GiCash} from 'react-icons/gi'
 function LoadCard() {
+  const navigate = useNavigate();
   return (
     <>
       <LoadCardWrapper>
@@ -40,7 +42,7 @@ function LoadCard() {
                  <input type="text" placeholder='eg. Bank number, Mobile money number, BTC Wallet' required/>
                  <label htmlFor="payslot">Total Amount</label>
                  <input type="number" placeholder='eg. 100 KD, 100 USD, 100 EUR, 100NR, 100 GH' required/>
-                 <button type="submit">Submit Request</button>
+                 <button type="submit" onClick={() => {navigate("/buxpaysuccess", { replace: true });}}>Submit Request</button>
                </form>
              </LoadWrap>
           </LoadCardLeft>
