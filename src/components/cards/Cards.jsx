@@ -5,7 +5,8 @@ import {
   CardList, ListContainer, ListHeading, ListWrapper,
   CardDesignWrapper,CardDesign, CardSideText,
   SecCard,SideItems,UseDirect, UsageAndTerms,
-  UsageCards, UsageList
+  UsageCards, UsageList, BecomeAMember, 
+  MemberContainer, MemberBtn
 
 } from './CardsElement'
 import MobileImg from '../../images/mobile.png'
@@ -13,6 +14,7 @@ import CardmImg from '../../images/card-mockup.png'
 import {FaPlaneDeparture} from 'react-icons/fa'
 import {VscActivateBreakpoints} from 'react-icons/vsc'
 import {GiCash} from 'react-icons/gi'
+import CTA from '../../sections/CTA/CTA'
 
 const usage = [
   {
@@ -107,6 +109,12 @@ function Cards() {
            }
          </UsageCards>
        </UsageAndTerms>
+       <CTA />
+       <BecomeAMember>
+         <MemberContainer className='container'>
+           <MemberBtn>Register To Get A Card</MemberBtn>
+         </MemberContainer>
+       </BecomeAMember>
       </>
   )
 }

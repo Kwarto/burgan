@@ -371,7 +371,7 @@ export const UsageAndTerms = styled.div`
  @media screen and (max-width: 768px){
    h1{
      font-size: 23px;
-     transform: translateX(10px);
+     transform: translateX(5rem);
    }
  }
 `
@@ -498,4 +498,28 @@ export const UsageList = styled.div`
        width: 23%;
      }
    }
+`
+
+export const BecomeAMember = styled.div`
+   padding: 30px 0;
+`
+
+export const MemberContainer = styled.div``
+
+export const MemberBtn = styled.div`
+ text-align: center;
+ background: var(--btn-color);
+ cursor: pointer;
+ width: 35%;
+ margin: 0 auto;
+ padding: 15px 30px;
+ border-radius: 50px;
+ box-shadow: var(--box-shadow);
+ font-size: 20px;
+ font-weight: 600;
+ color: var(--text-color);
+
+ @media screen and (max-width: 768px){
+   width: 95%;
+ }
 `
