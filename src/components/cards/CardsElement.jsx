@@ -196,7 +196,7 @@ export const SecCard = styled.div`
  position: absolute;
  transform: scale(1.04);
  top: 18rem;
- animation: animate 2s linear infinite;
+ animation:  2s linear infinite;
   @keyframes animate {
     0%{
       transform: translateX(0);
@@ -347,4 +347,155 @@ export const UseDirect = styled.div`
         font-size: 20px;
      }
   }
+`
+
+export const UsageAndTerms = styled.div`
+ padding: 30px 0;
+
+ h1{
+   font-size: 50px;
+   width: 60%;
+   text-align: center;
+   color: var(--text-color-t);
+   transform: translateX(-40px);
+   margin-bottom: 30px;
+ }
+
+ @media screen and (max-width: 1024px){
+   h1{
+     font-size: 35px;
+     transform: translateX(15px);
+   }
+ }
+
+ @media screen and (max-width: 768px){
+   h1{
+     font-size: 23px;
+     transform: translateX(10px);
+   }
+ }
+`
+
+export const UsageCards = styled.div`
+ min-height: 50vh;
+ height: 100%;
+ padding: 10px;
+
+ @media screen and (max-width: 1024px){
+   min-height: 30vh;
+ }
+
+ @media screen and (max-width: 768px){
+   padding: 2px;
+ }
+`
+
+export const UsageList = styled.div`
+   min-height: 200px;
+   background: rgba(174, 168, 226, 0.021);
+   box-shadow: var(--box-shadow);
+   border-radius: .3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   text-align: center;
+   position: relative;
+   &:after{
+      position: absolute;
+      content: 'بنك برقان';
+      width: 25%;
+      height: 30%;
+      bottom: -35px;
+      border-radius: 100%;
+      background: var(--btn-color);
+      box-shadow: var(--box-shadow);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      opacity: 0.86;
+      border: 5px solid var(--text-color);
+      animation:  6s linear infinite;
+
+      @keyframes Spinner {
+         0%{
+           transform: rotate(0);
+         }
+         100%{
+            transform: rotate(360deg);
+         }
+      }
+      &:hover{
+         border: 5px solid rgba(174, 168, 226, 0.021);
+      }
+
+      @media screen and (max-width: 768px){
+         height: 28%;
+      }
+   }
+
+   &:hover{
+      background: var(--text-color);
+      transform: translateY(-8px);
+   }
+
+   h2{
+      padding: 20px 0;
+      text-transform: uppercase;
+      font-size: 28px;
+      color: var(--text-color-t);
+
+      @media screen and (max-width: 768px){
+         font-size: 20px;
+      }
+   }
+
+   p{
+      font-size: 16.7px;
+      line-height: 1.7;
+   }
+
+
+   @media screen and (max-width: 1024px){
+     min-height: 310px;
+     width: 400px;
+
+     :nth-child(3){
+      margin-left: 50%;
+      transform: translateY(10px);
+     }
+
+     p{
+      padding-top: 15px;
+      font-size: 15px;
+      line-height: 1.7;
+     }
+
+     &:after{
+       width: 23%;
+     }
+   }
+
+   @media screen and (max-width: 768px){
+     margin: 30px 0;
+     min-height: 300px;
+     width: 350px;
+
+     :nth-child(3){
+      margin-left: 0;
+      transform: translateY(10px);
+     }
+
+     p{
+      padding-top: 15px;
+      font-size: 15px;
+      line-height: 1.7;
+     }
+
+     &:after{
+       width: 23%;
+     }
+   }
 `

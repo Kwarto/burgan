@@ -34,6 +34,7 @@ export const FooterText = styled.article`
  }
 
  @media screen and (max-width: 768px){
+    padding: 10px 021;
     width: 100%;
     p{
         width: 100%;
