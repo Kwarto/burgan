@@ -28,11 +28,11 @@ function Supportheader({facebook, twitter, instagram, linkedin, github}) {
           <Servicecenter>
             <Customer>Customer Service Center</Customer>
             <Socials {...acc}>
-                  <a href={`https://${linkedin}/bingui`} target='_blank' rel="noreferrer">Linkedin</a>
-                  <a href={`https://${twitter}/bingui`} target='_blank' rel="noreferrer">Twitter</a>
-                  <a href={`https://${facebook}/bingui`} target='_blank' rel="noreferrer">Facebook</a>
-                  <a href={`https://${instagram}/bingui`} target='_blank' rel="noreferrer">Instagram</a>
-                  <a href={`https://${github}/bingui`} target='_blank' rel="noreferrer">Github</a>
+                  <a href={`https://${linkedin}/burgan`} target='_blank' rel="noreferrer">Linkedin</a>
+                  <a href={`https://${twitter}/burgan`} target='_blank' rel="noreferrer">Twitter</a>
+                  <a href={`https://${facebook}/burgan`} target='_blank' rel="noreferrer">Facebook</a>
+                  <a href={`https://${instagram}/burgan`} target='_blank' rel="noreferrer">Instagram</a>
+                  <a href={`https://${github}/burgan`} target='_blank' rel="noreferrer">Github</a>
             </Socials>
           </Servicecenter>
       </SupportWrapper>
