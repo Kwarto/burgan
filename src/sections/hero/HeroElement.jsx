@@ -25,7 +25,7 @@ export const HeroText = styled.div`
     padding: 20px 0;
  }
 
- a{
+ .hero-btn{
     background: red;
     padding: 15px 40px;
     color: var(--text-color);

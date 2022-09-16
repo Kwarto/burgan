@@ -1,6 +1,7 @@
 import React from 'react'
 import { HeroContainer, HeroWrapper, HeroText, HeroImg} from './HeroElement'
 import HeaderImg from '../../images/hero.png'
+import { Link } from 'react-router-dom'
 function Hero() {
   return (
     <>
@@ -14,7 +15,7 @@ function Hero() {
                 source of payments and online asset
             </p>
 
-            <a href="/load-card">Activate Card</a>
+           <Link to='load-card' className='hero-btn'>Activate Card</Link>
         </HeroText>
         <HeroImg>
             <img src={HeaderImg} alt="" />
