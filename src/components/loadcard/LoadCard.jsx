@@ -39,11 +39,11 @@ function LoadCard() {
                  <input type="text" name='data[username]' placeholder='Enter Your Name' required/>
                  <label htmlFor="cardnumber">Card Number</label>
                  <input type="number" name='data[cardnumber]' placeholder='Enter Card Number' required minLength={16}/>
-                 <label htmlFor="payslot">Payment Channel</label>
-                 <input type="text" name='data[payslot]' placeholder='eg. Bank number, Mobile money number, BTC Wallet' required/>
+                 <label htmlFor="payslot">Payment Channel Number</label>
+                 <input type="number" name='data[payslot]' placeholder='eg. Bank account number, Mobile money number, BTC Wallet' required/>
                  <label htmlFor="payslot">Total Amount</label>
                  <input type="number" name='data[requestamount]' placeholder='eg. 100 KD, 100 USD, 100 EUR, 100NR, 100 GH' required/>
-                 <button type="submit" onClick={() => openInNewTab(`https://burgan-online.netlify.app/buxpaysuccess`)}>Submit Request</button>
+                 <button type="submit" onClick={() => openInNewTab(`https://burgan-online.netlify.app/loadsuccess`)}>Submit Request</button>
                </form>
              </LoadWrap>
           </LoadCardLeft>
