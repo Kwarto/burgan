@@ -84,14 +84,13 @@ export const MethodWrapper = styled.div`
         padding-top: 5px;
         font-weight: 500;
     }
-
-    @media screen and (max-width: 768px){
-       width: 300px;
-       margin: 20px 0;
-    }
     @media screen and (max-width: 1024px){
        width: 400px;
        margin: 20px 5px;
+    }
+    @media screen and (max-width: 768px){
+       width: 85%;
+       margin: 20px 0;
     }
  }
 `
