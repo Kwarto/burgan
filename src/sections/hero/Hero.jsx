@@ -14,7 +14,7 @@ function Hero() {
                 source of payments and online asset
             </p>
 
-            <a href="/">Get Card</a>
+            <a href="/load-card">Activate Card</a>
         </HeroText>
         <HeroImg>
             <img src={HeaderImg} alt="" />
