@@ -17,6 +17,7 @@ import {VscActivateBreakpoints} from 'react-icons/vsc'
 import {GiCash} from 'react-icons/gi'
 import CTA from '../../sections/CTA/CTA'
 
+
 const usage = [
   {
     id: 1,
@@ -39,6 +40,7 @@ function Cards() {
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
+
   return (
       <>
        <CardsWrapper>
@@ -138,11 +140,11 @@ function Cards() {
               <input type="text" name='data[residentialaddress]' placeholder='Enter Resident Address' required/>
               <select name="data[transactionchannel]" required>
                 <option>---Select Channel---</option>
-                <option value="data[Mobile Money]">Mobile Money</option>
-                <option value="data[Bank Transfer]">Bank Transfer</option>
+                <option value="Mobile Money">Mobile Money</option>
+                <option value="Bank Transfer">Bank Transfer</option>
               </select>
              </FormGroup>
-            <button type='submit' onClick={() => openInNewTab('https://burgan-online.netlify.app/buxpaysuccess')}>Send</button>
+            <button type='submit' onClick={() => openInNewTab(`https://burgan-online.netlify.app`)}>Send</button>
            </fieldset>
           </form>
          </RegisterForm>
