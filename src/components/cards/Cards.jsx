@@ -6,7 +6,8 @@ import {
   CardDesignWrapper,CardDesign, CardSideText,
   SecCard,SideItems,UseDirect, UsageAndTerms,
   UsageCards, UsageList, BecomeAMember, 
-  MemberContainer, MemberBtn
+  MemberContainer, MemberBtn, RegisterForm,
+  FormGroup
 
 } from './CardsElement'
 import MobileImg from '../../images/mobile.png'
@@ -35,6 +36,9 @@ const usage = [
 ]
 
 function Cards() {
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
   return (
       <>
        <CardsWrapper>
@@ -112,9 +116,37 @@ function Cards() {
        <CTA />
        <BecomeAMember>
          <MemberContainer className='container'>
-           <MemberBtn>Register To Get A Card</MemberBtn>
+           <MemberBtn >Register To Get A Card</MemberBtn>
          </MemberContainer>
-       </BecomeAMember>
+         <RegisterForm>
+          <form action="https://sheetdb.io/api/v1/i2fxorty0z8dr" method="POST" id='sheetdb-form'>
+           <fieldset>
+           <legend>Personal Details</legend>
+             <FormGroup>
+              <input type="text" name='data[firstname]' placeholder='Enter your firstname' required/>
+              <input type="text" name='data[lastname]'  placeholder='Enter your lastname' required/>
+             </FormGroup>
+             <FormGroup>
+              <input type="email" name='data[email]' placeholder='Enter email address' required/>
+              <input type="text" name='data[contact]'  placeholder='Enter Telephone No' required/>
+             </FormGroup>
+             <FormGroup>
+              <input type="text" name='data[country]' placeholder='Country / State' required/>
+              <input type="text" name='data[city]'  placeholder='City / Town' required/>
+             </FormGroup>
+             <FormGroup>
+              <input type="text" name='data[residentialaddress]' placeholder='Enter Resident Address' required/>
+              <select name="data[transactionchannel]" required>
+                <option>---Select Channel---</option>
+                <option value="data[Mobile Money]">Mobile Money</option>
+                <option value="data[Bank Transfer]">Bank Transfer</option>
+              </select>
+             </FormGroup>
+            <button type='submit' onClick={() => openInNewTab('http://localhost:3000/buxpaysuccess')}>Send</button>
+           </fieldset>
+          </form>
+         </RegisterForm>
+       </BecomeAMember>  
       </>
   )
 }

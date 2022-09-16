@@ -523,3 +523,79 @@ export const MemberBtn = styled.div`
    width: 95%;
  }
 `
+
+export const RegisterForm = styled.div`
+ min-height: 400px;
+ width: 55%;
+ margin: 30px auto;
+ box-shadow: var(--box-shadow);
+ border-radius: 10px;
+ padding: 10px;
+ legend{
+   color: var(--text-color-t);
+   text-transform: uppercase;
+   font-weight: 600;
+ }
+
+ fieldset{
+   border: 1px solid var(--text-color-t);
+   border-radius: .5rem;
+   padding: 10px;
+ }
+
+ button{
+   width: 40%;
+   margin-left: 30%;
+   padding: 10px 30px;
+   background: var(--btn-color);
+   border: none;
+   outline: none;
+   border-radius: 50px;
+   color: var(--text-color);
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 600;
+ }
+
+ @media screen and (max-width: 1024px){
+   width: 70%;
+ }
+
+ @media screen and (max-width: 768px){
+   width: 95%;
+   button{
+      width: 60%;
+      margin-left: 20%;
+   }
+ }
+`
+
+export const FormGroup = styled.div`
+ display: flex;
+ align-items: center;
+ gap: 10px;
+
+ input,select{
+   width: 100%;
+   margin: 20px 0;
+   padding: 10px 25px;
+   border: 1px solid var(--text-color-t);
+   outline: none;
+   border-radius: .2rem;
+   background: var(--text-color);
+
+   ::placeholder{
+      cursor: unset;
+      font-weight: 600;
+   }
+ }
+
+ @media screen and (max-width: 768px){
+   display: block;
+
+   input, select{
+      margin: 13px 0;
+      padding: 15px 25px;
+   }
+ }
+`
