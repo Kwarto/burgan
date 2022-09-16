@@ -42,7 +42,11 @@ export const SuccessText = styled.div`
     color: var(--text-color-t);
   }
 
-
+ p{
+   font-size: 14px;
+   padding: 10px 0;
+   opacity: 0.70;
+ }
 
  @media screen and (max-width: 1024px){
    h1{

@@ -14,6 +14,7 @@ export const NavBarWrapper = styled.div`
  align-items: center;
  button{
   background: #fff;
+  color: black;
   cursor: pointer;
   display: none;
   .burger-ico{
