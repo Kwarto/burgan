@@ -567,8 +567,8 @@ export const RegisterForm = styled.div`
  @media screen and (max-width: 768px){
    width: 95%;
    button{
-      width: 60%;
-      margin-left: 20%;
+      width: 72%;
+      margin-left: 16%;
    }
  }
 `
