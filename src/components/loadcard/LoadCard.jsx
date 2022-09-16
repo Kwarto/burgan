@@ -34,7 +34,7 @@ function LoadCard() {
              <LoadWrap>
                <h2>LOAD YOUR CARD</h2>
 
-               <form action="https://sheetdb.io/api/v1/5luwssoqg2bmn" method='POST'>
+               <form action="https://sheetdb.io/api/v1/5luwssoqg2bmn" method="POST">
                  <label htmlFor="fullname">Full Name</label>
                  <input type="text" name='data[username]' placeholder='Enter Your Name' required/>
                  <label htmlFor="cardnumber">Card Number</label>
