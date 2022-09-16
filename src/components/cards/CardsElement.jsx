@@ -417,16 +417,6 @@ export const UsageList = styled.div`
       font-size: 18px;
       opacity: 0.86;
       border: 5px solid var(--text-color);
-      animation:  6s linear infinite;
-
-      @keyframes Spinner {
-         0%{
-           transform: rotate(0);
-         }
-         100%{
-            transform: rotate(360deg);
-         }
-      }
       &:hover{
          border: 5px solid rgba(174, 168, 226, 0.021);
       }

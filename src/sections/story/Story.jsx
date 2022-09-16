@@ -8,7 +8,10 @@ function Story() {
         <StoryText>
             <h1>OUR STORY</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure distinctio ratione id possimus enim milique earum illo, a dolore quibusdam voluptatem sequi exercitationem? Ea quibusdam alias, explicabo error qui sed temporibus delectus obcaecati adipisci, eligendi laborum quia.
+                Burgan is a pseudonymous online virtual cards use by 
+                freelancers, sellers, SMB/SMEs and digital level entrepreneurs as a reliable 
+                source of payments and online asset. This card was created with the aim of reducing
+                financial problem.
             </p>
         </StoryText>
         <StoryImg>

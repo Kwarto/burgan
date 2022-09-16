@@ -7,7 +7,7 @@ function NavBar() {
   return (
      <>
       <NavBarWrapper>
-        <LogoWrapper>BURGAN</LogoWrapper>
+        <a href="/"><LogoWrapper>BURGAN</LogoWrapper></a>
          <NavList 
           onClick={() => setIsMobile(false)} 
           className={ isMobile ? "nav-links-mobile" : "nav-links"}

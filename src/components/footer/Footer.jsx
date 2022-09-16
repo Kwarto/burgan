@@ -11,7 +11,8 @@ function Footer() {
       </FooterLogo>
       <FooterText>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab laboriosam? Similique quo voluptatem cumque autem suscipit quos magnam id, dolore a quasi inventore laborum. Deleniti ad aspernatur animi debitis, nemo possimus eaque suscipit.
+          Burgan is A Financial Technology Company And Not A Bank. We provide quality, secure and fast e-transaction to businesses and individuals with our virtual cards.
+          Clients with our cards are eligible to access our 40% automatic payment cut off when transacting with our cards.
         </p>
       </FooterText>
      </FooterContent>

@@ -23,17 +23,17 @@ const usage = [
   {
     id: 1,
     heading: 'User Manual',
-    caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic tenetur, nisi aperiam laborum impedit veniam accusantium iste dicta!architecto! Inventore',
+    caption: 'Users are required to register and will acquire a physical card within 48hrs after a successful registration. ',
   },
   {
     id: 2,
     heading: 'Cash Per Week',
-    caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic tenetur, nisi aperiam laborum impedit veniam accusantium iste dicta!architecto! Inventore',
+    caption: 'All active members and card holders across the globe are eligible to use 62.10KD as their free 40% pay cut on transactions.There can be only 2 transactions per week. ',
   },
   {
     id: 3,
     heading: 'T & C',
-    caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic tenetur, nisi aperiam laborum impedit veniam accusantium iste dicta!architecto! Inventore',
+    caption: 'Users can only use their weekly free 62.10KD after there is a successful 60% load of the amount desired to.This is to accumulate the weekly share of 62.10KD  ',
   }
 ]
 
@@ -80,17 +80,17 @@ function Cards() {
                   <SideItems>
                     <div><FaPlaneDeparture className='c-ico'/></div>
                     <h1>Global Delivery</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Registered member virtual card will be delivered in 48hrs</p>
                   </SideItems>
                   <SideItems>
                     <div><VscActivateBreakpoints className='c-ico'/></div>
                     <h1>Activate Card</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Is a must to activate your cards to receive your 40% share</p>
                   </SideItems>
                   <SideItems>
                     <div><GiCash className='c-ico'/></div>
                     <h1>Use Card</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>Payments are done globally and electronically so you can use the card anywhere</p>
                   </SideItems>
                </CardSideText>
             </ListWrapper>

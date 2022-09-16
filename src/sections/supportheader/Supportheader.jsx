@@ -19,9 +19,7 @@ function Supportheader({facebook, twitter, instagram, linkedin, github}) {
                 <WrapText>
                 <WrapTitle>SUPPORT 24/7</WrapTitle>
                 <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                   Saepe beatae consectetur officia eum voluptatum dolore eligendi 
-                   est doloremque nemo minima.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Burgan our most priority is to enable smooth end-to-end support and effective assistance to our clients. With is in mind is why we provide the with activate 24/7 Hour support to assist and guide the through their various transactions and all concerning report.
                 </p>
                 <WrapBtn>More</WrapBtn>
                </WrapText>

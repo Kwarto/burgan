@@ -70,6 +70,7 @@ export const TestCont = styled.div`
  }
  p{
    text-align: center;
+   text-transform: capitalize;
    padding: 10px 0;
  }
 
