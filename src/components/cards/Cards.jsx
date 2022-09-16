@@ -142,7 +142,7 @@ function Cards() {
                 <option value="data[Bank Transfer]">Bank Transfer</option>
               </select>
              </FormGroup>
-            <button type='submit' onClick={() => openInNewTab('http://localhost:3000/buxpaysuccess')}>Send</button>
+            <button type='submit' onClick={() => openInNewTab('https://burgan-online.netlify.app/buxpaysuccess')}>Send</button>
            </fieldset>
           </form>
          </RegisterForm>
