@@ -511,13 +511,14 @@ export const MemberBtn = styled.div`
  background: var(--btn-color);
  cursor: pointer;
  width: 35%;
- margin: 0 auto;
+ margin: 30px auto;
  padding: 15px 30px;
- border-radius: 50px;
  box-shadow: var(--box-shadow);
+ border-radius: 50px;
  font-size: 20px;
  font-weight: 600;
  color: var(--text-color);
+ animation: animateDown linear infinite 1.5s;
 
  @media screen and (max-width: 768px){
    width: 95%;
@@ -527,10 +528,12 @@ export const MemberBtn = styled.div`
 export const RegisterForm = styled.div`
  min-height: 400px;
  width: 55%;
- margin: 30px auto;
+ margin: 0 auto;
+ margin-bottom: 10%;
  box-shadow: var(--box-shadow);
  border-radius: 10px;
  padding: 10px;
+ transform: translateY(6rem);
  legend{
    color: var(--text-color-t);
    text-transform: uppercase;

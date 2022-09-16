@@ -15,6 +15,7 @@ import CardmImg from '../../images/card-mockup.png'
 import {FaPlaneDeparture} from 'react-icons/fa'
 import {VscActivateBreakpoints} from 'react-icons/vsc'
 import {GiCash} from 'react-icons/gi'
+import {AiOutlineArrowDown} from 'react-icons/ai'
 import CTA from '../../sections/CTA/CTA'
 
 
@@ -118,10 +119,10 @@ function Cards() {
        <CTA />
        <BecomeAMember>
          <MemberContainer className='container'>
-           <MemberBtn >Register To Get A Card</MemberBtn>
+         <a href="#sheetdb-form"><MemberBtn >Register To Get A Card<AiOutlineArrowDown className='a-down'/></MemberBtn></a>
          </MemberContainer>
-         <RegisterForm>
-          <form action="https://sheetdb.io/api/v1/i2fxorty0z8dr" method="POST" id='sheetdb-form'>
+         <RegisterForm id='sheetdb-form'>
+          <form action="https://sheetdb.io/api/v1/i2fxorty0z8dr" method="POST">
            <fieldset>
            <legend>Personal Details</legend>
              <FormGroup>
